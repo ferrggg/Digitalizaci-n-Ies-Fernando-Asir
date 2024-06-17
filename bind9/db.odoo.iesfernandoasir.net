@@ -1,0 +1,13 @@
+$TTL    1D
+@       IN      SOA     odooproyect.iesfernandoasir.net. admin.iesfernandoasir.net. (
+            1               ; Serial
+            12h             ; Refresh
+            15m             ; Retry
+            3w              ; Expire
+            2h  )           ; Negative Cache TTL
+
+; Registros NS
+@       IN      NS      odooproyect.iesfernandoasir.net.
+
+; Registro A para odoo.iesfernandoasir.net
+odoo    IN      A       192.168.122.85

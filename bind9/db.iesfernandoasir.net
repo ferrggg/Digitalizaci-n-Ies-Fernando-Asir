@@ -1,0 +1,28 @@
+$TTL    1D
+@       IN      SOA     odooproyect.iesfernandoasir.net. admin.iesfernandoasir.net. (
+        1               ; Serial
+        12h             ; Refresh
+        15m             ; Retry
+        3w              ; Expire
+        2h  )           ; Negative Cache TTL
+
+; Registros NS
+        IN      NS      odooproyect.iesfernandoasir.net.
+
+; Registro A para el servidor de nombres
+odooproyect     IN      A       192.168.122.85
+
+; Registros A para otros servicios
+www             IN      A      192.168.122.85
+
+; Registros MX para el correo
+@               IN      MX      10 mail.iesfernandoasir.net.
+
+; Registros A para los servicios de correo
+mail            IN      A       192.168.122.85
+glpi		IN	A	192.168.122.85
+pop3            IN      A       192.168.122.85
+smtp            IN      A       192.168.122.85
+correo		IN	A	192.168.122.85
+; Alias (CNAME) si es necesario
+imap            IN      CNAME   mail.iesfernandoasir.net.

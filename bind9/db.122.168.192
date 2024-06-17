@@ -1,0 +1,10 @@
+$TTL    1d ;
+@       IN      SOA     odooproyect.iesfernandoasir.net admin.iesfernandoasir.net. (
+                        20210222        ; Serial
+                        12h             ; Refresh
+                        15m             ; Retry
+                        3w              ; Expire
+                        2h      )       ; Negative Cache TTL
+;
+@      IN      NS      odooproyect.iesfernandoasir.net.
+#1       IN      PTR     www.iesfernandoasir.net.
